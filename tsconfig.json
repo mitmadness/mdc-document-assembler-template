@@ -1,0 +1,45 @@
+// See: https://www.typescriptlang.org/tsconfig
+{
+  "exclude": ["./dist"],
+  "compilerOptions": {
+    // Generates .tsbuildinfo files for faster incremental builds, delete the folder if you have a corrupted cache.
+    "incremental": true,
+    // For recommended "target", "lib", and "module" settings depending on the Node version in use, see:
+    // https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    // All strictness settings below -- disable/change as needed/desired.
+    // Flag "strict" enables a whole subset of "strict*"-prefixed flags that you may independently disable if desired.
+    // Ex: "strictNullChecks": false
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "useUnknownInCatchVariables": true,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    // We force TS to output JS even if there are errors, very useful in development.
+    // In production, just ensure the build process fails when the build command returns a non-zero exit code, with or
+    // without this option!
+    "noEmitOnError": false
+  }
+}

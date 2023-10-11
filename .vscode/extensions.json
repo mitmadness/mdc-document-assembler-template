@@ -1,0 +1,16 @@
+{
+  // Voici une liste de plugins recommendés, par catégorie d'importance.
+  // Nous ne listons que des plugins "utiles", pour tout ce qui peut concerner des améliorations générales à l'IDE
+  // mais qui dépend de préférences plus arbitraires, c'est à vous de chercher et d'installer ce dont vous avez envie.
+  "recommendations": [
+    // [Quasi-obligatoire] Style & qualité du code.
+    "EditorConfig.EditorConfig",
+    "mike-co.import-sorter",
+    // [Très recommandé] Support de l'IDE pour pile technologique du projet.
+    "mikestead.dotenv",
+    "GraphQL.vscode-graphql",
+    // [À votre guise] Qualité de vie & communication d'équipe.
+    "eamodio.gitlens",
+    "aaron-bond.better-comments"
+  ]
+}

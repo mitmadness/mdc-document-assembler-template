@@ -1,0 +1,7 @@
+{
+  "ChunkDoesNotAcceptParameters": "Cette section de document n'accepte pas de paramètres de génération et a donc été désactivée, supprimez-les pour générer cette section.",
+  "GeneratingChunk": "Génération de « {{ chunkName }} »",
+  "Initializing": "Préparation…",
+  "InvalidChunkParameter": "Paramètre de génération erroné, la section utilisera les paramètres par défaut : {{ message }}",
+  "PreparingYourFile": "Préparation de votre fichier…"
+}

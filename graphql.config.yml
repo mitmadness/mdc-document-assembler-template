@@ -1,0 +1,5 @@
+schema: ./schema.graphql
+extensions:
+  endpoints:
+    production:
+      url: https://mydecocloud.com/graphql
