@@ -1,2 +1,44 @@
 {
+  "ScrapperReport": {
+    "Common": {
+      "RoomLabel": {
+        "Accessibleroofterrace": "Toit terrasse accessible",
+        "Annex": "Annexe",
+        "Attic": "Grenier",
+        "AtticFlat": "Comble aménagé",
+        "Balcony": "Balcon",
+        "Basement": "Sous-sol",
+        "Bathroom": "Salle de bains",
+        "Bedroom": "Chambre",
+        "CeilingHole": "Vide sur séjour",
+        "Cellar": "Cave",
+        "Closet": "Placard",
+        "Dining": "Salle à manger",
+        "Dressing": "Dressing",
+        "Entrance": "Entrée",
+        "FamilyRoom": "Séjour",
+        "Gameroom": "Salle de jeux",
+        "Garage": "Garage",
+        "Garden": "Jardin",
+        "Hall": "Dégagement",
+        "Installations": "Installations",
+        "Isolatedcellar": "Cellier isolé",
+        "Kitchen": "Cuisine",
+        "Livable": "Habitable",
+        "Livingroom": "Pièce de vie",
+        "Lounge": "Salon",
+        "Mezzanine": "Mezzanine",
+        "Nonaccessibleroofterrace": "Toit terrasse non accessible",
+        "Office": "Bureau",
+        "Parents": "Parent",
+        "Porch": "Porche",
+        "Serviceshaft": "Gaine technique",
+        "Showerroom": "Salle d'eau",
+        "Technical": "Technique",
+        "Terrace": "Terrasse",
+        "Unknown": "Non défini",
+        "WC": "WC"
+      }
+    }
+  }
 }

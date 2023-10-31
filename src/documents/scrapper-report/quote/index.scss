@@ -1,0 +1,137 @@
+@use '../common' as homeplan;
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: homeplan.$color-section-title;
+}
+.info-page {
+    height: 100%;
+    background-color: homeplan.$color-light-background;
+    margin-left: -0.5cm;
+    margin-right: -0.5cm;
+
+    padding: 1cm;
+}
+
+.info-columns {
+    width: 100%;
+    padding: 32px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+
+    .info-customer {
+        width: 50%;
+
+        .info-customer-table {
+            width: 100%;
+            border: thin solid homeplan.$color-border-table;
+        }
+    }
+
+    .info-project {
+        width: 50%;
+
+        .info-project-table {
+            width: 100%;
+            border: thin solid homeplan.$color-border-table;
+        }
+
+        .info-salesman-table {
+            width: 100%;
+            border: thin solid homeplan.$color-border-table;
+        }
+    }
+
+    .even {
+        background-color: #FFFFFF;
+    }
+
+    .odd {
+        background-color: #FAFAFA;
+    }
+
+    .data-emphasis {
+        width: 50%;
+        color: homeplan.$color-text-table;
+        font-weight: bold;
+        text-align: left;
+        border-top: thin solid homeplan.$color-border-table;
+        border-bottom: thin solid homeplan.$color-border-table;
+        padding: 0.5em;
+    }
+
+    .data-item {
+        width: 50%;
+        color: homeplan.$color-text-table;
+        text-align: right;
+        border-top: thin solid homeplan.$color-border-table;
+        border-bottom: thin solid homeplan.$color-border-table;
+        padding: 0.5em;
+    }
+
+    .info-section {
+        color: homeplan.$color-text-table;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: normal;
+        text-align: center;
+
+    }
+}
+
+.table-layer {
+    width: 100%;
+
+    .table-layer-header {
+        background-color: homeplan.$color-primary;
+        color: homeplan.$color-reverse-primary;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: left;
+        padding: 12px;
+    }
+
+    .layer-even {
+        background-color: #FFFFFF;
+        color: homeplan.$color-text-table;
+    }
+
+    .layer-odd {
+        background-color: #FAFAFA;
+        color: homeplan.$color-text-table;
+    }
+
+    .total-floor {
+        border-top: solid 2px homeplan.$color-primary;
+        color: homeplan.$color-text-table;
+        font-weight:bold;
+    }
+
+    .total-floor-label{
+        background-color: #FFFFFF;
+    }
+
+    .total-floor-type {
+        background-color: #E3EAF5;
+    }
+
+    .text-left {
+        text-align: left;
+        padding: 0.6em;
+    }
+
+    .text-right {
+        text-align: right;
+        padding: 0.6em;
+    }
+
+    .text-right-na {
+        color: #B5B5B5;
+        text-align: right;
+        padding: 0.6em;
+    }
+}

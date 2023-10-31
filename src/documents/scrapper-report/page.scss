@@ -1,0 +1,64 @@
+@use '../lib-print' as lib;
+@use 'common' as homeplan;
+
+// https://fonts.google.com/share?selection.family=Raleway:wght@400;700
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    font-size: 10pt;
+    font-family: homeplan.$font-family;
+    color: homeplan.$color-ateneo-blue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: homeplan.$color-primary;
+}
+
+.page {
+    @include lib.full-page;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 8pt;
+    padding: .5cm .5cm 3cm .5cm;
+
+    // background-image set via TSX
+    background-repeat: no-repeat;
+    background-size: 20.5cm auto;
+    background-position: bottom right;
+
+    > .page-header {
+        flex: 0 0 2cm;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 16px 32px 16px 16px;
+
+        > .page-logo {
+            display: flex;
+            align-items: flex-start;
+            width: 50%;
+
+            .logo-brand {
+                height: 48px;
+                width: auto;
+            }
+        }
+
+        > .page-title {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+            h1, h2, h3, h4, h5, h6 {
+                text-transform: uppercase;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                text-align: right;
+            }
+        }
+    }
+}

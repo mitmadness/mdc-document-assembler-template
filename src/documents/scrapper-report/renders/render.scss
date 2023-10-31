@@ -1,0 +1,12 @@
+@use '../common' as homeplan;
+
+.render {
+    flex: 1;
+
+    // background-image set via TSX
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: -0.5cm;
+    margin-right: -0.5cm;
+}

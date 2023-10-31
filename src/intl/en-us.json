@@ -1,2 +1,44 @@
 {
+  "ScrapperReport": {
+    "Common": {
+      "RoomLabel": {
+        "Accessibleroofterrace": "Accessible roof terrace",
+        "Annex": "Annex",
+        "Attic": "Attic",
+        "AtticFlat": "Attic flat",
+        "Balcony": "Balcony",
+        "Basement": "Basement",
+        "Bathroom": "Bathroom",
+        "Bedroom": "Bedroom",
+        "CeilingHole": "Ceiling hole",
+        "Cellar": "Cellar",
+        "Closet": "Closet",
+        "Dining": "Dining",
+        "Dressing": "Dressing",
+        "Entrance": "Entrance",
+        "FamilyRoom": "Family room",
+        "Gameroom": "Game room",
+        "Garage": "Garage",
+        "Garden": "Garden",
+        "Hall": "Hall",
+        "Installations": "Installations",
+        "Isolatedcellar": "Isolated cellar",
+        "Kitchen": "Kitchen",
+        "Livable": "Livable",
+        "Livingroom": "Living room",
+        "Lounge": "Lounge",
+        "Mezzanine": "Mezzanine",
+        "Nonaccessibleroofterrace": "Non accessible roof terrace",
+        "Office": "Office",
+        "Parents": "Parents",
+        "Porch": "Porch",
+        "Serviceshaft": "Service shaft",
+        "Showerroom": "Shower room",
+        "Technical": "Technical",
+        "Terrace": "Terrace",
+        "Unknown": "Undefined",
+        "WC": "WC"
+      }
+    }
+  }
 }

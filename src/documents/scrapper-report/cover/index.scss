@@ -1,0 +1,77 @@
+@use '../common' as homeplan;
+
+.page > .page-header {
+    height: 2.5cm;
+}
+
+.cover-picture {
+    width: 100%;
+
+    .cover-picture-img {
+        left: 0;
+        right: 0;
+        height: auto;
+    }
+}
+
+.section-title {
+    color: homeplan.$color-text-table;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+
+}
+
+.info-columns {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer-table {
+    width: 50%;
+    border: thin solid homeplan.$color-border-table;
+}
+
+.salesman-table {
+    width: 50%;
+    border: thin solid homeplan.$color-border-table;
+}
+
+.even {
+    background-color: #FFFFFF;
+}
+
+.odd {
+    background-color: #FAFAFA;
+}
+
+.data-emphasis {
+    width: 50%;
+    color: homeplan.$color-text-table;
+    font-weight: bold;
+    text-align: left;
+    border-top: thin solid homeplan.$color-border-table;
+    border-bottom: thin solid homeplan.$color-border-table;
+    padding: 0.5em;
+}
+
+.data-item {
+    width: 50%;
+    color: homeplan.$color-text-table;
+    text-align: right;
+    padding: 0.5em;
+    border-top: thin solid homeplan.$color-border-table;
+    border-bottom: thin solid homeplan.$color-border-table;
+}
