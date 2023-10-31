@@ -1,0 +1,47 @@
+// ! Keep variables in sync with lib-print.ts
+
+// https://stackoverflow.com/questions/3503615/what-are-the-minimum-margins-most-printers-can-handle
+$page-margin-minimal: .25in;
+$page-margin-normal: 1cm;
+
+@mixin full-page($allow-overflow: false) {
+    position: relative;
+    width: 100vw;
+    page-break-after: always;
+
+    @if $allow-overflow == false {
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+/// Inspired from Bootstrap .table class.
+/// For @include-ing in a <table> element only.
+@mixin simple-table($striped: false, $compact: false) {
+    width: 100%;
+    border-color: var(--lib-print-separator-color);
+
+    th, td {
+        border-color: inherit;
+        border-style: solid;
+        border-width: 0;
+        border-bottom-width: 1px;
+        padding: 0.5rem 0.5rem;
+    }
+
+    @if $compact {
+        th, td {
+            padding: 0.25rem 0.25rem;
+        }
+    }
+
+    th {
+        text-align: inherit;
+    }
+
+    @if $striped {
+        tbody tr:nth-of-type(odd) {
+            background-color: var(--lib-print-light-background-color);
+        }
+    }
+}
