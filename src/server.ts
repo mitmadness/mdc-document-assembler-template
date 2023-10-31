@@ -10,7 +10,7 @@ export async function boot(): Promise<void> {
 
     // Accept huge JSON payloads from myDecoCloud Scrapper, document input manifests.
     // They can notably contain base64-encoded images.
-    app.use(express.json({ limit: '1mb' }));
+    app.use(express.json({ limit: '10mb' }));
 
     app.use(documentsRouter);
 
